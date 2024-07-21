@@ -29,37 +29,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&bt BT_CLR_ALL  &kp Q  &kp W  &kp E  &kp R  &kp T        &trans         &kp Y      &kp U  &kp I  &kp O    &trans
-&sys_reset      &kp A  &kp S  &kp D  &kp F  &kp G        &trans         &kp H      &kp J  &kp K  &kp L    &kp SEMI
-&kp LCTRL       &kp Z  &kp X  &kp C  &kp V  &kp B        &trans         &kp N      &kp M  &kp P  &kp DOT  &trans
-                              &mo 3  &mo 2  &kp LSHFT    &kp LS(UNDER)  &kp SPACE  &mo 1
-            >;
-        };
-
-        layer_1 {
-            bindings = <
-&trans  &trans    &trans     &trans    &trans   &trans    &trans  &kp TAB        &kp ESC   &kp BSPC   &kp RET    &trans
-&trans  &kp HOME  &kp LCTRL  &kp LALT  &kp END  &trans    &trans  &kp LEFT       &kp DOWN  &kp UP     &kp RIGHT  &trans
-&trans  &trans    &trans     &trans    &trans   &trans    &trans  &kp LS(QMARK)  &kp SQT   &kp COMMA  &trans     &trans
-                             &trans    &trans   &trans    &trans  &trans         &trans
-            >;
-        };
-
-        layer_2 {
-            bindings = <
-&trans  &trans      &trans      &kp LS(LBRC)  &kp LS(RBRC)  &trans    &trans  &kp LS(EXCL)  &kp LS(CARET)  &trans        &trans     &trans
-&trans  &kp LS(LT)  &kp LS(GT)  &kp LS(LPAR)  &kp LS(RPAR)  &arrow    &trans  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(PLUS)  &kp EQUAL  &trans
-&trans  &trans      &trans      &kp LBKT      &kp RBKT      &trans    &trans  &kp LS(PIPE)  &kp FSLH       &kp MINUS     &kp BSLH   &trans
-                                &trans        &trans        &trans    &trans  &trans        &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&bt BT_SEL 0  &kp N0          &kp N1  &kp N2  &kp N3  &trans    &trans     &kp F5   &trans  &trans  &trans  &trans
-&bt BT_SEL 1  &kp GRAVE       &kp N4  &kp N5  &kp N6  &trans    &kp RSHFT  &kp F10  &trans  &trans  &trans  &trans
-&bt BT_SEL 2  &bt BT_CLR_ALL  &kp N7  &kp N8  &kp N9  &trans    &trans     &kp F11  &trans  &trans  &trans  &trans
-                                      &trans  &trans  &trans    &trans     &trans   &trans
+&bt BT_CLR_ALL  &kp Q  &kp W  &kp E  &kp R  &kp T        &none          &kp Y      &kp U  &kp I  &kp O    &none
+&sys_reset      &kp A  &kp S  &kp D  &kp F  &kp G        &none          &kp H      &kp J  &kp K  &kp L    &kp SEMI
+&kp LCTRL       &kp Z  &kp X  &kp C  &kp V  &kp B        &none          &kp N      &kp M  &kp P  &kp DOT  &none
+                              &none  &none  &kp LSHFT    &kp LS(UNDER)  &kp SPACE  &none
             >;
         };
     };
